@@ -1,0 +1,21 @@
+Compiling guide:
+
+make sure the following files are within the same folder:
+login.cpp
+login.h
+reader.cpp
+reader.h
+stats.cpp
+stats.h
+menu.cpp
+menu.h
+clrscr.h
+temp.dat
+user_data.dat
+the data file you would like to input
+
+in VSCode, type in "g++ menu.cpp login.cpp reader.cpp stats.cpp -o main"
+and press enter
+this will compile the code
+
+to run the code, type in "./main" and press enter
